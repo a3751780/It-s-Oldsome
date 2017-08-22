@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ElderCare</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab1">睡眠偵測</string>
+    <string name="tab2">心律偵測</string>
+    <string name="tab3">連結</string>
+    <string name="tab4">添衣偵測</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_emergency_detection_main">EmergencyDetection_mainActivity</string>
+    <string name="title_activity_emergency_warning">EmergencyWarningActivity</string>
+    <string name="title_activity_check_date">CheckDateActivity</string>
+    <string name="title_activity_creat_qrcode_medicine_list">CreatQrcodeMedicineList</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

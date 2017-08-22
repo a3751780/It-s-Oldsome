@@ -1,0 +1,26 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="35dip"
+    android:background="#ffb5e61d">
+
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:id="@+id/ib1"
+        android:background="@drawable/enter"
+        android:layout_marginTop="67dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView5"
+        android:background="@drawable/sleep"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

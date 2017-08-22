@@ -1,0 +1,135 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="CustomAppTheme" parent="android:Theme.Holo">
+
+
+        <item name="android:actionBarStyle">@style/MBACustomActionBarStyle</item>
+        <item name="android:actionMenuTextAppearance">@style/ActionBarMenuTextStytle</item>
+        <item name="android:actionBarTabTextStyle">@style/MBAActionBarTabText</item>
+        <item name="android:actionBarTabStyle">@style/MBAActionBarTabs</item>
+    </style>
+
+
+    <style name="tab_item_background"  parent="android:Theme.Holo">
+
+    </style>
+    <style name="MBACustomActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#cf8c89d1</item>
+        <item name="android:titleTextStyle">@style/MBAActionBarTitleStyle</item>
+        <item name="android:backgroundStacked">#ffffffff</item>
+        <item name="android:displayOptions">showHome</item>
+    </style>
+
+    <style name="MBAActionBarTitleStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffe59778</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="ActionBarMenuTextStytle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:actionMenuTextColor">#ffffffff</item>
+    </style>
+
+    <style name="MBAActionBarTabText" parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">#ff030102</item>
+    </style>
+
+    <style name="MBAActionBarTabs" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">#ff3cb3d2</item>
+    </style>
+    <style name="tab_button_bottom">
+        <item name="android:textSize">65px</item>
+        <item name="android:textColor">#ff030102</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/g1</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">1dip</item>
+        <item name="android:layout_width">500dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="tab_button_bottom2">
+        <item name="android:textSize">65px</item>
+        <item name="android:textColor">#ff030102</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/red1</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">1dip</item>
+        <item name="android:layout_width">500dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="tab_button_bottom3">
+        <item name="android:textSize">65px</item>
+        <item name="android:textColor">#ff030102</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/or1</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">1dip</item>
+        <item name="android:layout_width">500dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="tab_button_bottom4">
+        <item name="android:textSize">65px</item>
+        <item name="android:textColor">#ff030102</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/y1</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">1dip</item>
+        <item name="android:layout_width">500dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="tab_button_bottom5">
+        <item name="android:textSize">65px</item>
+        <item name="android:textColor">#ff030102</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/blue3</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">1dip</item>
+        <item name="android:layout_width">500dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <!-- 页面标题LinearLayout样式 -->
+    <style name="activity_title_background">
+        <item name="android:background">@drawable/white</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 界面标题TextView样式 -->
+    <style name="activity_title_text">
+        <item name="android:textSize">30dip</item>
+        <item name="android:textColor">@drawable/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
